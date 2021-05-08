@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sucesiones</title>
+</head>
+<body>
+    <div id="actividadUno">
+        <h3>PRIMER ACTIVIDAD</h3><br><br>
+        <h4>Ingresa el primer termino de la sucesion aritmetica. Te mostraré los proximos 10 terminos</h4>
+        <input type="text" name="asu1" id="asu1" placeholder="Ingrese el primer termino"><br><br>
+        <input type="text" name="dif" id="dif" placeholder="Ingrese la diferencia"><br><br>
+        <button type="button" onclick="ejercicioUno()">Calcular</button><br><br>
+      
+        
+    </div>
+    <p>--------------------------------------</p>
+
+    <div id="actividadDos">
+        <h3>SEGUNDA ACTIVIDAD</h3><br><br>
+        <h4>Ingresa un termino, la posición de ese termino, y la diferencia. Te mostraré los proximos 10 terminos </h4>
+        <input type="text" name="asuk" id="asuk" placeholder="Termino"><br><br>
+        <input type="text" name="pos" id="pos" placeholder="Posición del termino"><br><br>
+        <input type="text" name="dif2" id="dif2" placeholder="Diferencia"><br><br>
+        <button type="button" onclick="ejercicioDos()">Calcular</button><br><br>
+       
+    </div>
+    <p>--------------------------------------</p>
+
+    <div id="actividadTres">
+        <h3>TERCER ACTIVIDAD</h3><br><br>
+        <h4>Primero ingrese por favor los 5 terminos de alguna sucesión:</h4>
+        <input type="text" name="termino1" id="termino1" placeholder="Ingrese el 1er termino"><br><br>
+        <input type="text" name="termino2" id="termino2" placeholder="Ingrese el 2do termino"><br><br>
+        <input type="text" name="termino3" id="termino3" placeholder="Ingrese el 3er termino"><br><br>
+        <input type="text" name="termino4" id="termino4" placeholder="Ingrese el 4to termino"><br><br>
+        <input type="text" name="termino5" id="termino5" placeholder="Ingrese el 5to termino"><br><br>
+
+        <button type="button" onclick="ejercicioTres()">Calcular termino general</button><br><br>
+        <p>----------------</p>
+        <h4>Ingrese cualquier posicion de la sucesión, que desee ver por pantalla</h4>
+        <input type="text" name="nuevoValor" id="nuevoValor" placeholder="Consultar el siguiente valor"><br><br>
+        <button type="button" onclick="ejercicioCuatro()">Consultar el valor</button><br><br>
+
+       
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
